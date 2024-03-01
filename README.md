@@ -81,3 +81,10 @@ public class Main extends JavaPlugin {
 ## Project structure
 
 - ** exceptions **: Custom exceptions.
+
+## Project development
+
+Time spent: 23 hours
+Ressources used: Spigot API, Bukkit API, Java 8, Maven, IntelliJ IDEA
+Documentation used: https://helpch.at/docs/1.8/index.html?org/bukkit/scoreboard/Scoreboard.html
+```
