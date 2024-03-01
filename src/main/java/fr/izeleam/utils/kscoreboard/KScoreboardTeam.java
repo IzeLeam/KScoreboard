@@ -18,7 +18,7 @@ public class KScoreboardTeam {
   private final List<UUID> players = new ArrayList<>();
   private final KScoreboard scoreboard;
 
-  public KScoreboardTeam(String name, String displayName,ChatColor color, KScoreboard scoreboard) {
+  public KScoreboardTeam(String name, String displayName, ChatColor color, KScoreboard scoreboard) {
     this.name = name;
     this.displayName = displayName;
     this.color = color;
@@ -137,9 +137,6 @@ public class KScoreboardTeam {
     refresh();
   }
 
-  /**
-   * Destroy the team. Will remove the team from the scoreboard and clear entries.
-   */
   protected void destroy() {
     if (this.scoreboard instanceof KPerPlayerScoreboard) {
       for (UUID uuid : this.players) {
