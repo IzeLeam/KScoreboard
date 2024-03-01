@@ -10,15 +10,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.scoreboard.Scoreboard;
 import org.bukkit.scoreboard.Team;
 
-/**
- * Represents a team on a scoreboard.
- *
- * <p>Teams are used to group players together on a scoreboard. They can have a display name, a
- * prefix, and a suffix. Players can be added to a team, and then the team's properties will be
- * applied to them on the scoreboard.
- *
- * author: Izeleam
- */
 public class KScoreboardTeam {
 
   private String name;
