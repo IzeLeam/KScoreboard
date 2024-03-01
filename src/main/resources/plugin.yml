@@ -1,0 +1,3 @@
+name: KScoreboard
+version: '${project.version}'
+main: fr.izeleam.utils.kscoreboard.KScoreboard
