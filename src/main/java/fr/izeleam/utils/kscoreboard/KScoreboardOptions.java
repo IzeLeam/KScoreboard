@@ -27,5 +27,4 @@ public class KScoreboardOptions {
   public void setTabHealthStyle(KScoreboardTabHealthStyle tabHealthStyle) {
     this.tabHealthStyle = tabHealthStyle;
   }
-
 }
