@@ -1,7 +1,5 @@
 package fr.izeleam.utils.kscoreboard;
 
-import fr.izeleam.utils.kscoreboard.wrappers.HealthStyle;
-
 public enum KScoreboardTabHealthStyle {
 
   NONE, HEARTS, PERCENTAGE, NUMBER;

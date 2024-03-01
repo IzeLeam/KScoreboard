@@ -1,4 +1,4 @@
-package fr.izeleam.utils.kscoreboard.wrappers;
+package fr.izeleam.utils.kscoreboard;
 
 public enum HealthStyle {
 

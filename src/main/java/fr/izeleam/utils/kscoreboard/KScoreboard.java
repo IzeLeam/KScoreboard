@@ -3,7 +3,6 @@ package fr.izeleam.utils.kscoreboard;
 import fr.izeleam.utils.kscoreboard.exceptions.DuplicateTeamException;
 import fr.izeleam.utils.kscoreboard.exceptions.LineOutOfRangeException;
 import fr.izeleam.utils.kscoreboard.exceptions.NameOutOfRangeException;
-import fr.izeleam.utils.kscoreboard.wrappers.ObjectiveWrapper;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package fr.izeleam.utils.kscoreboard.wrappers;
+package fr.izeleam.utils.kscoreboard;
 
 import org.bukkit.scoreboard.Objective;
 import org.bukkit.scoreboard.Scoreboard;
