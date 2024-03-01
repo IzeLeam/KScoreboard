@@ -26,10 +26,7 @@ public class KGlobalScoreboard extends KScoreboard {
     this.setOptions(options);
   }
 
-  public KGlobalScoreboard(
-      Supplier<String> titleSupplier,
-      Supplier<List<String>> linesSupplier
-  ) {
+  public KGlobalScoreboard(Supplier<String> titleSupplier, Supplier<List<String>> linesSupplier) {
     this.titleSupplier = titleSupplier;
     this.linesSupplier = linesSupplier;
     this.setOptions(KScoreboardOptions.defaultOptions);
