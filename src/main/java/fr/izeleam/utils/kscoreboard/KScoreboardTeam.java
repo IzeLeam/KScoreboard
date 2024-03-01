@@ -77,7 +77,6 @@ public class KScoreboardTeam {
       }
     }
 
-    getScoreboard().getTeamWrapper().setColor(team, color);
     team.setPrefix(ChatColor.translateAlternateColorCodes('&', getDisplayName()));
   }
 

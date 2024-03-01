@@ -4,7 +4,6 @@ import fr.izeleam.utils.kscoreboard.exceptions.DuplicateTeamException;
 import fr.izeleam.utils.kscoreboard.exceptions.LineOutOfRangeException;
 import fr.izeleam.utils.kscoreboard.exceptions.NameOutOfRangeException;
 import fr.izeleam.utils.kscoreboard.wrappers.ObjectiveWrapper;
-import fr.izeleam.utils.kscoreboard.wrappers.TeamWrapper;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -26,7 +25,6 @@ public abstract class KScoreboard {
   private KScoreboardOptions options;
 
   private ObjectiveWrapper objectiveWrapper;
-  private TeamWrapper teamWrapper;
 
   private final List<KScoreboardTeam> teams = new ArrayList<>();
   private final List<UUID> activePlayers = new ArrayList<>();
@@ -37,7 +35,6 @@ public abstract class KScoreboard {
 
   public KScoreboard() {
     objectiveWrapper = new ObjectiveWrapper();
-    teamWrapper = new TeamWrapper();
 
     maxLineLength = 32;
   }
@@ -255,10 +252,6 @@ public abstract class KScoreboard {
 
   protected ObjectiveWrapper getObjectiveWrapper() {
     return objectiveWrapper;
-  }
-
-  protected TeamWrapper getTeamWrapper() {
-    return teamWrapper;
   }
 
   protected void setOptions(KScoreboardOptions options) {
