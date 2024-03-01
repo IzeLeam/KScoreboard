@@ -1,7 +1,9 @@
 # KScoreboard
 
 Welcome to KScoreboard!
-This is a easier way to create scoreboards for your server.
+This is an easier way to create scoreboards for your server.
+
+Please report any issues you find.
 
 ## Features
 
