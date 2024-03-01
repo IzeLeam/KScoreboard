@@ -24,8 +24,7 @@ public class KPerPlayerScoreboard extends KScoreboard {
   public KPerPlayerScoreboard(
       Function<Player, String> generateTitleFunction,
       Function<Player, List<String>> generateLinesFunction,
-      KScoreboardOptions options
-  ) {
+      KScoreboardOptions options) {
     setOptions(options);
 
     this.generateTitleFunction = generateTitleFunction;
@@ -43,7 +42,7 @@ public class KPerPlayerScoreboard extends KScoreboard {
   }
 
   public void updateScoreboard() throws LineOutOfRangeException {
-    if (generateLinesFunction == null) return; // Line generator is not ready yet
+    if (generateLinesFunction == null) return;
 
     for (UUID playerUUID : getActivePlayers()) {
       Player player = Bukkit.getPlayer(playerUUID);
@@ -104,12 +103,11 @@ public class KPerPlayerScoreboard extends KScoreboard {
     return player;
   }
 
-  protected void setGenerateLinesFunction(Function<Player, List<String>> generateLinesFunction) {
+  protected void setLinesFunction(Function<Player, List<String>> generateLinesFunction) {
     this.generateLinesFunction = generateLinesFunction;
   }
 
-  protected void setGenerateTitleFunction(Function<Player, String> generateTitleFunction) {
+  protected void setTitleFunction(Function<Player, String> generateTitleFunction) {
     this.generateTitleFunction = generateTitleFunction;
   }
-
 }

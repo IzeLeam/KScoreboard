@@ -80,5 +80,4 @@ public class KGlobalScoreboard extends KScoreboard {
   protected String getTitle(Scoreboard scoreboard) {
     return titleSupplier.get();
   }
-
 }
